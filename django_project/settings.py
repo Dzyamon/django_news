@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     # APP
     'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,5 @@ EMAIL_HOST_PASSWORD = 'SG.4rZsk0d_RoOJ1kXqGitUiA.yvm6YcrklSZRcPsSuwkXwXzQskx-MNy
 # EMAIL_HOST_PASSWORD = 'hapxgltaihegatzg'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+TIME_ZONE = 'Europe/Minsk'  # ADD
